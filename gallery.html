@@ -11,32 +11,13 @@
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header" role="banner">
-  <div class="container header-inner">
-    <a class="brand" href="./index.html" aria-label="Homepage">
-      <span class="brand-mark" aria-hidden="true">◆</span>
-      <span class="brand-stack">
-        <span class="brand-name">Stained Glass by <span class="brand-accent">Michelle</span></span>
-        
-      </span>
-    </a>
-
-    <nav class="site-nav" aria-label="Primary navigation">
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
-        <span class="nav-toggle__label">Menu</span>
-        <span class="nav-toggle__icon" aria-hidden="true"></span>
-      </button>
-      <ul id="primary-nav" class="nav-list">
-        <li><a class="nav-link" href="./index.html">Home</a></li>
-        <li><a class="nav-link is-active" href="./gallery.html" aria-current="page">Gallery</a></li>
-        <li><a class="nav-link" href="./about.html">About</a></li>
-        <li><a class="nav-link" href="./contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
-  <main id="main" class="site-main" tabindex="-1">
+  <nav class="floating-nav" aria-label="Primary navigation">
+    <a class="floating-link" href="./index.html">Home</a>
+    <a class="floating-link is-active" href="./gallery.html">Gallery</a>
+    <a class="floating-link" href="./about.html">About</a>
+    <a class="floating-link" href="./contact.html">Contact</a>
+  </nav>
+<main id="main" class="site-main" tabindex="-1">
     <section class="section" aria-labelledby="gallery-title">
       <div class="container">
         <h1 id="gallery-title" class="section-title">Gallery</h1>

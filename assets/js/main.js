@@ -113,7 +113,7 @@
     // Hide the featured-only items from the gallery if you want;
     // currently we include EVERYTHING except the banner. Easiest: include all pieces.
     galleryGrid.innerHTML = pieces
-      .filter((p) => p.id !== "banner")
+      .filter((p) => String(p.thumb || "").includes("/gallery/thumbs/"))
       .map(
         (p) => `
         <article class="gallery-item" role="listitem">

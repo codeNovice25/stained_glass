@@ -11,32 +11,13 @@
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header" role="banner">
-  <div class="container header-inner">
-    <a class="brand" href="./index.html" aria-label="Homepage">
-      <span class="brand-mark" aria-hidden="true">◆</span>
-      <span class="brand-stack">
-        <span class="brand-name">Stained Glass by <span class="brand-accent">Michelle</span></span>
-        
-      </span>
-    </a>
-
-    <nav class="site-nav" aria-label="Primary navigation">
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
-        <span class="nav-toggle__label">Menu</span>
-        <span class="nav-toggle__icon" aria-hidden="true"></span>
-      </button>
-      <ul id="primary-nav" class="nav-list">
-        <li><a class="nav-link is-active" href="./index.html" aria-current="page">Home</a></li>
-        <li><a class="nav-link" href="./gallery.html">Gallery</a></li>
-        <li><a class="nav-link" href="./about.html">About</a></li>
-        <li><a class="nav-link" href="./contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
-  <main id="main" class="site-main" tabindex="-1">
+  <nav class="floating-nav" aria-label="Primary navigation">
+    <a class="floating-link is-active" href="./index.html">Home</a>
+    <a class="floating-link" href="./gallery.html">Gallery</a>
+    <a class="floating-link" href="./about.html">About</a>
+    <a class="floating-link" href="./contact.html">Contact</a>
+  </nav>
+<main id="main" class="site-main" tabindex="-1">
     <section class="card-banner" aria-label="Stained glass banner">
       <div class="container">
         <figure class="card-figure">
@@ -57,7 +38,26 @@
         <div class="hero-actions">
           <a class="btn btn-primary" href="mailto:mkellercordes@gmail.com?subject=Custom%20stained%20glass%20order">Request a custom order</a>
         </div>
+      </div>
+    </section>
 
+    <section class="section section-favorites" aria-labelledby="favorites-title">
+      <div class="container">
+        <h2 id="favorites-title" class="section-title">Featured favorites</h2>
+        <p class="section-subtitle">Tap Enquire to start an email to Michelle about a piece.</p>
+
+        <div id="featured-grid" class="grid favorites" role="list">
+          <!-- Rendered by JS from /data/pieces.json -->
+        </div>
+
+        <div class="section-actions">
+          <a class="text-link" href="./gallery.html">View full gallery →</a>
+        </div>
+      </div>
+    </section>
+  
+    <section class="section" aria-label="Details">
+      <div class="container">
         <div class="highlights" aria-label="Highlights">
           <div class="highlight">
             <h3 class="highlight-title">Materials</h3>
@@ -71,21 +71,6 @@
             <h3 class="highlight-title">Custom</h3>
             <p class="highlight-text">Colours, themes, initials, pets</p>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" aria-labelledby="favorites-title">
-      <div class="container">
-        <h2 id="favorites-title" class="section-title">Featured favorites</h2>
-        <p class="section-subtitle">Tap Enquire to start an email to Michelle about a piece.</p>
-
-        <div id="featured-grid" class="grid favorites" role="list">
-          <!-- Rendered by JS from /data/pieces.json -->
-        </div>
-
-        <div class="section-actions">
-          <a class="text-link" href="./gallery.html">View full gallery →</a>
         </div>
       </div>
     </section>
