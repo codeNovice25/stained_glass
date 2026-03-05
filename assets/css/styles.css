@@ -43,7 +43,7 @@ body{
   -webkit-font-smoothing: antialiased;
 }
 
-img{ max-width:100%; display:block; }
+img{ max-width:100%; height: auto; }
 
 .container{
   width: min(var(--container), calc(100% - (var(--pad) * 2)));
