@@ -1,0 +1,112 @@
+{
+  "pieces": [
+    {
+      "id": "dolphin",
+      "title": "Dolphin",
+      "alt": "Stained glass dolphin ornament",
+      "thumb": "./assets/images/favorites/dolphin.jpg",
+      "large": "./assets/images/favorites/dolphin.jpg",
+      "featured": true,
+      "featuredOrder": 1
+    },
+    {
+      "id": "turtle",
+      "title": "Turtle",
+      "alt": "Stained glass turtle ornament",
+      "thumb": "./assets/images/favorites/turtle.jpg",
+      "large": "./assets/images/favorites/turtle.jpg",
+      "featured": true,
+      "featuredOrder": 2
+    },
+    {
+      "id": "lighthouse",
+      "title": "Lighthouse",
+      "alt": "Stained glass lighthouse ornament",
+      "thumb": "./assets/images/favorites/lighthouse.jpg",
+      "large": "./assets/images/favorites/lighthouse.jpg",
+      "featured": true,
+      "featuredOrder": 3
+    },
+    {
+      "id": "blue-jay",
+      "title": "Blue Jay",
+      "alt": "Stained glass piece: Blue Jay",
+      "thumb": "./assets/images/gallery/thumbs/blue-jay.jpg",
+      "large": "./assets/images/gallery/large/blue-jay.jpg",
+      "featured": false,
+      "featuredOrder": 50
+    },
+    {
+      "id": "wave",
+      "title": "Wave",
+      "alt": "Stained glass piece: Wave",
+      "thumb": "./assets/images/gallery/thumbs/wave.jpg",
+      "large": "./assets/images/gallery/large/wave.jpg",
+      "featured": false,
+      "featuredOrder": 50
+    },
+    {
+      "id": "wave-deep-blue",
+      "title": "Wave (Deep Blue)",
+      "alt": "Stained glass piece: Wave (Deep Blue)",
+      "thumb": "./assets/images/gallery/thumbs/wave-deep-blue.jpg",
+      "large": "./assets/images/gallery/large/wave-deep-blue.jpg",
+      "featured": false,
+      "featuredOrder": 50
+    },
+    {
+      "id": "washington-dc",
+      "title": "Washington DC",
+      "alt": "Stained glass piece: Washington DC",
+      "thumb": "./assets/images/gallery/thumbs/washington-dc.jpg",
+      "large": "./assets/images/gallery/large/washington-dc.jpg",
+      "featured": false,
+      "featuredOrder": 50
+    },
+    {
+      "id": "fleur-de-lis",
+      "title": "Fleur-de-lis",
+      "alt": "Stained glass piece: Fleur-de-lis",
+      "thumb": "./assets/images/gallery/thumbs/fleur-de-lis.jpg",
+      "large": "./assets/images/gallery/large/fleur-de-lis.jpg",
+      "featured": false,
+      "featuredOrder": 50
+    },
+    {
+      "id": "grinch",
+      "title": "Grinch",
+      "alt": "Stained glass piece: Grinch",
+      "thumb": "./assets/images/gallery/thumbs/grinch.jpg",
+      "large": "./assets/images/gallery/large/grinch.jpg",
+      "featured": false,
+      "featuredOrder": 50
+    },
+    {
+      "id": "harbour-town",
+      "title": "Harbour Town",
+      "alt": "Stained glass piece: Harbour Town",
+      "thumb": "./assets/images/gallery/thumbs/harbour-town.jpg",
+      "large": "./assets/images/gallery/large/harbour-town.jpg",
+      "featured": false,
+      "featuredOrder": 50
+    },
+    {
+      "id": "astros",
+      "title": "Astros",
+      "alt": "Stained glass piece: Astros",
+      "thumb": "./assets/images/gallery/thumbs/astros.jpg",
+      "large": "./assets/images/gallery/large/astros.jpg",
+      "featured": false,
+      "featuredOrder": 50
+    },
+    {
+      "id": "cross",
+      "title": "Cross",
+      "alt": "Stained glass piece: Cross",
+      "thumb": "./assets/images/gallery/thumbs/cross.jpg",
+      "large": "./assets/images/gallery/large/cross.jpg",
+      "featured": false,
+      "featuredOrder": 50
+    }
+  ]
+}

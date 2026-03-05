@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="About Michelle and her stained glass work." />
+  <title>About | Stained Glass by Michelle</title>
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <script src="./assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" role="banner">
+  <div class="container header-inner">
+    <a class="brand" href="./index.html" aria-label="Homepage">
+      <span class="brand-mark" aria-hidden="true">◆</span>
+      <span class="brand-stack">
+        <span class="brand-name">Stained Glass by <span class="brand-accent">Michelle</span></span>
+        <span class="brand-meta">
+          <a href="mailto:mkellercordes@gmail.com">mkellercordes@gmail.com</a> · (281) 799-8724<br />
+          Hilton Head Island, South Carolina
+        </span>
+      </span>
+    </a>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="nav-toggle__label">Menu</span>
+        <span class="nav-toggle__icon" aria-hidden="true"></span>
+      </button>
+      <ul id="primary-nav" class="nav-list">
+        <li><a class="nav-link" href="./index.html">Home</a></li>
+        <li><a class="nav-link" href="./gallery.html">Gallery</a></li>
+        <li><a class="nav-link is-active" href="./about.html" aria-current="page">About</a></li>
+        <li><a class="nav-link" href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <main id="main" class="site-main" tabindex="-1">
+    <section class="section" aria-labelledby="about-title">
+      <div class="container">
+        <h1 id="about-title" class="section-title">About</h1>
+        <p class="section-subtitle" style="max-width: 70ch;">
+          Michelle creates handmade stained glass ornaments and custom pieces inspired by the coast.
+          Each piece is cut, foiled, and soldered by hand, then carefully finished and packaged gift-ready.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Michelle · Hilton Head Island, SC</p>
+    </div>
+  </footer>
+
+  <div class="modal" data-modal aria-hidden="true" role="dialog" aria-modal="true" aria-label="Artwork preview">
+    <div class="modal-dialog">
+      <div class="modal-head">
+        <h3 class="modal-title" data-modal-title>Artwork</h3>
+        <button class="modal-close" type="button" data-modal-close aria-label="Close">✕</button>
+      </div>
+      <div class="modal-body">
+        <img data-modal-img src="" alt="" />
+      </div>
+    </div>
+  </div>
+</body>
+</html>
