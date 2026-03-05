@@ -92,7 +92,7 @@
       .map(
         (p) => `
         <article class="product-card" role="listitem">
-          <img src="${escapeHtml(p.thumb)}" alt="${escapeHtml(p.alt || p.title)}" loading="lazy" decoding="async" />
+          <img data-piece="${escapeHtml(p.id)}" src="${escapeHtml(p.thumb)}" alt="${escapeHtml(p.alt || p.title)}" loading="lazy" decoding="async" />
           <div class="product-body">
             <h3 class="product-title">${escapeHtml(p.title)}</h3>
             <p class="product-meta">Featured piece</p>
@@ -122,7 +122,7 @@
             data-large="${escapeHtml(p.large)}"
             data-title="${escapeHtml(p.title)}"
             data-alt="${escapeHtml(p.alt || p.title)}">
-            <img src="${escapeHtml(p.thumb)}" alt="${escapeHtml(p.alt || p.title)}" loading="lazy" decoding="async" />
+            <img data-piece="${escapeHtml(p.id)}" src="${escapeHtml(p.thumb)}" alt="${escapeHtml(p.alt || p.title)}" loading="lazy" decoding="async" />
           </button>
           <div class="gallery-caption">${escapeHtml(p.title)}</div>
         </article>
